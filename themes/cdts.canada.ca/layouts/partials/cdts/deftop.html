@@ -1,0 +1,41 @@
+    
+    <div id="def-top">
+    {{ `<!-- Write closure template -->` | safeHTML }}
+    <script>
+        var defTop = document.getElementById("def-top");
+        defTop.outerHTML = wet.builder.top({
+            "cdnEnv": cdnEnvVar,
+            "appName": [{
+                "text": ""
+            }],
+            "lngLinks": [{
+                "lang": "TODO",
+                "href": "TODO",
+                {{if eq .Lang "fr"}}
+                "text": "English"
+                {{else}}
+                "text": "Français"
+                {{end}}
+            }],
+            {{ with .Params.cdtsconfig.search }}
+            search: {{ . }},
+            {{ else }}
+            search: true,
+            {{ end }}
+
+            {{ with .Params.cdtsconfig.siteMenu }}
+            siteMenu: {{ . }},
+            {{ else }}
+            siteMenu: false,
+            {{ end }}
+
+            {{ with .Params.cdtsconfig.showPreContent }}
+            showPreContent: {{ . }},
+            {{ else }}
+            showPreContent: true,
+            {{ end }}
+            "customSearch": "test"
+
+        });
+    </script>
+    </div>
