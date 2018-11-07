@@ -13,3 +13,66 @@
     color: #2D2B2C !important;
 }
 
+/* ==========================================================================
+   Background Image Classes   
+   ========================================================================== */
+
+.esdcseniorscampaign .esc-bg { 
+    height: 350px;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent 80%, #f9f9f9 100%), url("https://canada-ca-adult-campaign.netlify.com/images/adult-campaign/hero-bg.png") no-repeat center; 
+    background-size: cover;
+}
+
+/* ==========================================================================
+   Detail Elements Overide Class   
+   ========================================================================== */
+
+.esdcseniorscampaign details { 
+    background-color: #ddd;
+}
+
+.esdcseniorscampaign details summary { 
+    border-radius: 0px !important; 
+    background-color: red !important;
+    padding: 15px;
+    color: #fff; 
+    font-weight: 600;
+    font-size: 100%;
+}   
+
+.esdcseniorscampaign details[open] { 
+    border-radius: 0px;
+    border: none;
+}
+
+.esdcseniorscampaign details[open] summary {
+    border-bottom: none;
+    margin-bottom: 15px;
+}
+
+.esdcseniorscampaign details ul{
+    margin: 0px; 
+    padding: 0px; 
+    list-style: none;
+    color: #fff !important;
+}
+
+
+/* ==========================================================================
+   Detail Elements Color Classes   
+   ========================================================================== */
+
+.esdcseniorscampaign details.esc-blue-0 { 
+    background-color: rgb( 21, 67, 96, 0.8 );
+}
+.esdcseniorscampaign details.esc-blue-0 summary { 
+    background-color: rgb( 21, 67, 96 ) !important; 
+}
+
+.esdcseniorscampaign details.esc-orange-0 { 
+    background-color: rgb( 185, 119, 14, 0.8);
+}
+.esdcseniorscampaign details.esc-orange-0 summary { 
+    background-color: rgb( 185, 119, 14) !important; 
+}
