@@ -76,3 +76,10 @@
 .esdcseniorscampaign details.esc-orange-0 summary { 
     background-color: rgb( 185, 119, 14) !important; 
 }
+
+.esdcseniorscampaign details.esc-red-0 { 
+    background-color: rgb(  100, 30, 22, 0.8);
+}
+.esdcseniorscampaign details.esc-red-0 summary { 
+    background-color: rgb(  100, 30, 22) !important; 
+}
