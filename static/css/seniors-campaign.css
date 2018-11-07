@@ -47,13 +47,20 @@
     margin-bottom: 15px;
 }
 
-.esdcseniorscampaign details ul{
-    margin: 0px; 
+.esdcseniorscampaign details ul {
+    margin: 0px 0px 0px 15px; 
     padding: 0px; 
     list-style: none;
-    color: #fff !important;
 }
 
+.esdcseniorscampaign details ul li {
+    padding: 10px 0px 10px 0px;
+}
+
+.esdcseniorscampaign details ul li a {
+    color: #f1efef !important;
+    font-weight: 600 !important;
+}
 
 /* ==========================================================================
    Detail Elements Color Classes   
