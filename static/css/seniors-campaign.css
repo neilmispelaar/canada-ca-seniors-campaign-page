@@ -67,31 +67,52 @@
    ========================================================================== */
 
 .esdcseniorscampaign details.esc-blue-0 { 
-    background-color: rgba( 21, 67, 96, 0.8 ) !important;
+    background-color: rgba( 0, 33, 87, 0.8 ) !important;
 }
 .esdcseniorscampaign details.esc-blue-0 summary { 
-    background-color: rgb( 21, 67, 96 ) !important; 
+    background-color: rgb( 0, 33, 87 ) !important; 
+}
+
+.esdcseniorscampaign details.esc-blue-1 { 
+    background-color: rgba( 0, 91, 127, 0.8 ) !important;
+}
+.esdcseniorscampaign details.esc-blue-1 summary { 
+    background-color: rgb( 0, 91, 127 ) !important; 
 }
 
 .esdcseniorscampaign details.esc-dark-0 { 
-    background-color: rgba(  40, 55, 71, 0.8 ) !important;
+    background-color: rgba(  54, 54, 54, 0.8 ) !important;
 }
 .esdcseniorscampaign details.esc-dark-0 summary { 
-    background-color: rgb(  40, 55, 71 ) !important; 
+    background-color: rgb(  54, 54, 54 ) !important; 
+}
+
+.esdcseniorscampaign details.esc-pink-0 { 
+    background-color: rgba(  158, 0, 93, 0.8 ) !important;
+}
+.esdcseniorscampaign details.esc-pink-0 summary { 
+    background-color: rgb(   158, 0, 93 ) !important; 
 }
 
 .esdcseniorscampaign details.esc-teal-0 { 
-    background-color: rgba(  14, 98, 81, 0.8 ) !important;
+    background-color: rgba(  0, 116, 107, 0.8 ) !important;
 }
 .esdcseniorscampaign details.esc-teal-0 summary { 
-    background-color: rgb(   14, 98, 81 ) !important; 
+    background-color: rgb(   0, 116, 107 ) !important; 
 }
 
 .esdcseniorscampaign details.esc-orange-0 { 
-    background-color: rgba( 185, 119, 14, 0.8);
+    background-color: rgba( 160, 65, 13, 0.8);
 }
 .esdcseniorscampaign details.esc-orange-0 summary { 
-    background-color: rgb( 185, 119, 14) !important; 
+    background-color: rgb( 160, 65, 13) !important; 
+}
+
+.esdcseniorscampaign details.esc-orange-1 { 
+    background-color: rgba( 242, 101, 34, 0.8);
+}
+.esdcseniorscampaign details.esc-orange-1 summary { 
+    background-color: rgb( 242, 101, 34) !important; 
 }
 
 .esdcseniorscampaign details.esc-red-0 { 
@@ -102,15 +123,22 @@
 }
 
 .esdcseniorscampaign details.esc-green-0 { 
-    background-color: rgba( 20, 90, 50, 0.8);
+    background-color: rgba( 62, 72, 54, 0.8);
 }
 .esdcseniorscampaign details.esc-green-0 summary { 
-    background-color: rgb( 20, 90, 50 ) !important; 
+    background-color: rgb( 62, 72, 54 ) !important; 
 }
 
 .esdcseniorscampaign details.esc-purple-0 { 
-    background-color: rgba( 81, 46, 95, 0.8);
+    background-color: rgba( 46, 49, 146, 0.8);
 }
 .esdcseniorscampaign details.esc-purple-0 summary { 
-    background-color: rgb( 81, 46, 95 ) !important; 
+    background-color: rgb( 46, 49, 146 ) !important; 
+}
+
+.esdcseniorscampaign details.esc-purple-1 { 
+    background-color: rgba( 75, 0, 73, 0.8);
+}
+.esdcseniorscampaign details.esc-purple-1 summary { 
+    background-color: rgb( 75, 0, 73 ) !important; 
 }
