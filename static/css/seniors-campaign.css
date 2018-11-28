@@ -20,7 +20,7 @@
 .esdcseniorscampaign .esc-bg { 
     height: 350px;
     width: 100%;
-    background: linear-gradient(to bottom, transparent 80%, #f9f9f9 100%), url("https://canada-ca-adult-campaign.netlify.com/images/adult-campaign/hero-bg.png") no-repeat center; 
+    background: linear-gradient(to bottom, transparent 80%, #f9f9f9 100%), url("/images/hero-bg.jpg") no-repeat center; 
     background-size: cover;
 }
 
